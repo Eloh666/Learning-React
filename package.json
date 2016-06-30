@@ -1,0 +1,11 @@
+{
+  "name": "es6-react-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

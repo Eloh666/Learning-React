@@ -4,8 +4,6 @@ import {v4} from 'node-uuid';
 import {configureStore} from './configureStore'
 import {Router, Route, browserHistory, Link} from 'react-router';
 
-
-let nextTodoId = 0;
 const makeAddTodoAction = (text) => ({
     type: "ADD_TODO",
     id: v4(),
